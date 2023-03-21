@@ -1,5 +1,6 @@
 <?php
-include __DIR__ . "/functions.php";
+include __DIR__ . '/functions.php';
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -19,14 +20,7 @@ include __DIR__ . "/functions.php";
         </div>
     </form>
 
-    <?php
-    if (isset($password)) {
-    ?>
-    <h3>La tua password è:</h3>
-    <h1> <?php echo $password ?></h1>    
-    <?php
-    }
-    ?>
+    
 
 </body>
 </html>
